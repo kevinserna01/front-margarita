@@ -10,7 +10,7 @@ const Ganadores = () => {
 
     const obtenerGanadores = async () => {
         try {
-            const response = await fetch('http://localhost:4000/v1/margarita/ganadores', {
+            const response = await fetch('https://back-margarita.vercel.app/v1/margarita/ganadores', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
